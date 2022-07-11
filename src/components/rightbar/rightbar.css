@@ -1,0 +1,118 @@
+.rightbar{
+    flex: 3.5;
+    margin-left: 50px;  
+     
+}
+.rightbarwrapper
+{
+    padding: 20px 20px 0 0;
+}
+
+.quotecontainer{
+    display: flex;
+    align-items: center;
+}
+
+
+.quotetext{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.rightbarfriendlist{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+.rightbarfriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.rightbarimgcontainer{
+    position: relative;
+    margin-right: 10px;
+
+}
+
+.rightbarprofileimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.rightbarad{
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.rightbaronline{
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: limegreen;
+        position: absolute;
+        top: -2px;
+        right: 0;
+        
+        border: 2px solid white;
+}
+
+.rightbarusername{
+    font-weight: 500;
+}
+
+.rightbartitle{
+    margin-bottom: 20px;
+    font-size: 30px;
+    
+}
+.rightbartitle{
+    font-style: 18px;
+    font-weight: 500;
+    margin-bottom: none;
+
+}
+.rightbarinfo{
+    margin-bottom: 30px;
+}
+.rightbarinfoitem{
+    margin-bottom: 10px;
+}
+.rightbarinfokey{
+
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+
+}
+.rightbarinfovalue{
+
+    font-weight: 300;
+}
+.followings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.following{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.followinngimg{
+
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+.followingname{}
