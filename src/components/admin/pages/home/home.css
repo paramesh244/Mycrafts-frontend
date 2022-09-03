@@ -1,0 +1,43 @@
+.home{
+    flex: 4;
+    width: auto;
+    padding-left: 200px;
+    
+
+    margin-top: -800px;
+   
+    
+}
+        
+.homeWidgets{
+    width: 100%;
+    
+    margin: 20px;
+    
+} 
+
+.container{
+    
+    display: flex;
+    margin-top: 10px;
+}
+.sidebar{
+    padding-top: 20px;
+    left: 0;
+    width: 200px;
+}
+.top11  {
+    display: flex;  
+    gap: 900%;
+    padding-top: 5px;
+    z-index: 999;
+    position: fixed;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    
+   
+}
+.container1{
+    display: flex;
+    gap: 60%;
+}

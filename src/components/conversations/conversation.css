@@ -1,0 +1,47 @@
+.conversation {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .conversation:hover {
+    background-color:azure;
+  }
+  
+  .followerImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .conversationName {
+    font-weight: 500;
+    
+
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+    .conversationName {
+      
+      display: inline-block;
+
+    }
+  }
+  .online-dot{
+    padding-left: 5px;
+    padding-right: 2px;
+    bottom: 13px;
+    left: 50px;
+  }
+  .online{
+     display: inline-block;
+     left: -10%;
+     top: 15px;
+     
+  }
+  
